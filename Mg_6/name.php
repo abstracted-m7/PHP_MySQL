@@ -11,11 +11,12 @@
 <div class="phpcontainer">
 <?php
 echo "<pre>";
+// --------------------Assignment-1-----------------
 echo "<h1>Welcome</h1>";
 echo "<h2>Mr.$_POST[fname] $_POST[lname]</h2>";
 echo "<h2>$_POST[p_number]</h2>";
 
-// -------------------Check Even Odd-------------------------
+// ------------------- asst-2 Check Even Odd-------------------------
 
 echo "*****************************";
 echo "<h2>Check Even Odd</h2>";
@@ -27,7 +28,7 @@ else{
     echo "<h4>The Number is : <b>Odd</b></h4>";
 }
 
-// -------------------Check Number greater or smaller-------------------------
+// ------------------- asst-3 Check Number greater or smaller-------------------------
 echo "<br>************************************";
 echo "<br>Find Number is greater or smaller ?";
 $num=$_POST['first_number'];
