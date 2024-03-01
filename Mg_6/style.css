@@ -1,4 +1,40 @@
 body{
     font-family: cursive;
-    background-color: rgb(127, 225, 127);
+    background-color: rgb(182, 226, 228);
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.container input[type="text"]{
+    display: flex;
+    width: 300px;
+    height: 40px;
+    border: 2px solid rgb(127, 225, 127);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.container input[type="number"]{
+    display: flex;
+    width: 300px;
+    height: 40px;
+    border: 2px solid rgb(127, 225, 127);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+.container input [type="submit"]{
+    display: flex;
+}
+.phpcontainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(224, 228, 175);
+    font-size: 1.5em;
 }
