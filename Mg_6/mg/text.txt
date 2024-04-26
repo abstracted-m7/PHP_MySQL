@@ -1,0 +1,18 @@
+  <?php
+        $Num = $_POST['fibnumber'];
+        function fibnacci($number){
+            if($number==0){
+                return 0;
+            }
+            elseif($number==1){
+                return 1;
+            }
+            else{
+                return fibnacci($number-1)+fibnacci($number-2);
+            }
+        }
+        echo "<br>The fibonacci series of $Num is :";
+        for($i=0;$i<$Num;$i++){
+            echo "<br>".$fibnacci($i);
+        }
+    ?>
